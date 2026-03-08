@@ -169,7 +169,7 @@ img {
 @media print {
   @page {
     size: A4;
-    margin: 14mm 13mm;
+    margin: 12mm 12mm;
   }
 
   /* Preserve colors (badges, section headings, pills) */
@@ -179,8 +179,8 @@ img {
   }
 
   body {
-    font-size: 11px;
-    line-height: 1.5;
+    font-size: 10.5px;
+    line-height: 1.4;
     color: #1a1a2e;
     background: #fff;
   }
@@ -192,82 +192,86 @@ img {
   }
 
   /* Header */
-  .cv-header { margin-bottom: 0.8rem; }
+  .cv-header { margin-bottom: 0.5rem; }
 
-  .cv-header h1 { font-size: 1.6rem; }
+  .cv-header h1 { font-size: 1.4rem; }
 
-  .cv-title { font-size: 0.85rem; }
+  .cv-title { font-size: 0.8rem; }
 
-  .cv-contact { font-size: 0.75rem; }
+  .cv-contact { font-size: 0.72rem; }
 
   /* Links — plain text in print */
   a { color: inherit; text-decoration: none; }
 
+  /* Hide decorative hr separators — h2/h3 margins provide enough spacing */
+  hr { display: none; }
+
   /* Section headings */
   h2 {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     color: #2563eb;
     border-bottom-color: #2563eb;
-    margin: 1rem 0 0.5rem;
+    border-bottom-width: 1.5px;
+    margin: 0.85rem 0 0.35rem;
     page-break-after: avoid;
   }
 
   h3 {
     font-size: 0.875rem;
+    margin: 0.55rem 0 0.1rem;
     page-break-after: avoid;
   }
 
-  /* Dividers */
-  hr { margin: 0.7rem 0; }
-
-  /* Lists */
+  /* Lists — allow list to flow across pages, but keep each bullet intact */
   ul {
-    margin: 0.25rem 0;
+    margin: 0.2rem 0;
     padding-left: 1rem;
+  }
+
+  li {
+    margin-bottom: 0.1rem;
     page-break-inside: avoid;
   }
 
-  li { margin-bottom: 0.15rem; }
-
   /* Tech stack pills */
   blockquote {
-    margin: 0.4rem 0 0;
+    margin: 0.35rem 0 0.45rem;
     page-break-inside: avoid;
     page-break-before: avoid;
   }
 
-  blockquote p { gap: 0.25rem; }
+  blockquote p { gap: 0.2rem; }
 
   blockquote code {
     background: #eff6ff;
     color: #1d4ed8;
     border-color: #bfdbfe;
-    font-size: 0.65rem;
-    padding: 0.08rem 0.35rem;
+    font-size: 0.62rem;
+    padding: 0.07rem 0.3rem;
   }
 
   /* Date / location inline code */
   p > code {
     background: #f3f4f6;
     color: #374151;
-    font-size: 0.7rem;
-    padding: 0.05rem 0.35rem;
+    font-size: 0.68rem;
+    padding: 0.04rem 0.3rem;
   }
 
-  /* Skills badges — keep compact */
+  /* Skills badges — compact, explicit width reset for correct scaling */
   img {
-    height: 16px;
-    margin: 0.1rem 0.05rem;
+    height: 15px;
+    width: auto;
+    margin: 0.05rem 0.06rem;
   }
 
   /* Table */
   th, td {
-    font-size: 0.8rem;
-    padding: 0.25rem 0.6rem;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
   }
 
-  /* Reduce gap between p tags */
-  p { margin: 0.3rem 0; }
+  p { margin: 0.2rem 0; }
 }
 
 /* ── Mobile ── */
