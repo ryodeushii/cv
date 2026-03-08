@@ -3,13 +3,16 @@ layout: default
 title: Evgeny Kapusta — Senior Software Engineer
 ---
 
-<div align="center">
-
-# Evgeny Kapusta
-### Senior Software Engineer
-
-<sub>Warsaw, Poland &nbsp;|&nbsp; [3193631@gmail.com](mailto:3193631@gmail.com) &nbsp;|&nbsp; +48 571 945 110 &nbsp;|&nbsp; [github.com/ryodeushii](https://github.com/ryodeushii) &nbsp;|&nbsp; [linkedin.com/in/eugenekapusta](https://www.linkedin.com/in/eugenekapusta/)</sub>
-
+<div class="cv-header">
+  <h1>Evgeny Kapusta</h1>
+  <p class="cv-title">Senior Software Engineer</p>
+  <p class="cv-contact">
+    Warsaw, Poland &nbsp;|&nbsp;
+    <a href="mailto:3193631@gmail.com">3193631@gmail.com</a> &nbsp;|&nbsp;
+    +48 571 945 110 &nbsp;|&nbsp;
+    <a href="https://github.com/ryodeushii">github.com/ryodeushii</a> &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/eugenekapusta/">linkedin.com/in/eugenekapusta</a>
+  </p>
 </div>
 
 ---

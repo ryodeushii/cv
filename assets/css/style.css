@@ -16,15 +16,44 @@ body {
   padding: 2.5rem 2rem;
 }
 
-/* ── Headings ── */
-h1 {
-  font-size: 2.2rem;
+/* ── CV Header ── */
+.cv-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.cv-header h1 {
+  font-size: 2.4rem;
   font-weight: 700;
   letter-spacing: -0.5px;
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.2rem;
   color: #0f0f1a;
 }
 
+.cv-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6b7280;
+  margin: 0 0 0.6rem;
+  letter-spacing: 0.5px;
+}
+
+.cv-contact {
+  font-size: 0.875rem;
+  color: #555;
+  margin: 0;
+}
+
+.cv-contact a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.cv-contact a:hover {
+  text-decoration: underline;
+}
+
+/* ── Headings ── */
 h2 {
   font-size: 0.8rem;
   font-weight: 700;
@@ -42,21 +71,6 @@ h3 {
   color: #0f0f1a;
   margin: 0 0 0.2rem;
 }
-
-/* ── Contact sub-line ── */
-sub {
-  font-size: 0.875rem;
-  color: #555;
-  line-height: 2;
-  vertical-align: baseline;
-}
-
-sub a {
-  color: #2563eb;
-  text-decoration: none;
-}
-
-sub a:hover { text-decoration: underline; }
 
 /* ── Dividers ── */
 hr {
