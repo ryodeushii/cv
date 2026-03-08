@@ -82,6 +82,7 @@ Senior Software Engineer with **10+ years** of experience designing and deliveri
 ---
 
 ## Experience
+{: .page-start}
 
 ### Senior Software Engineer &mdash; **Viessmann / Carrier Global**
 `Warsaw, Poland` &nbsp; `Jan 2023 – Present`
