@@ -1,0 +1,179 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1a1a2e;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+/* ── Headings ── */
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 0.25rem;
+  color: #0f0f1a;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 0.3rem;
+  margin: 2rem 0 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f0f1a;
+  margin: 0 0 0.2rem;
+}
+
+/* ── Contact sub-line ── */
+sub {
+  font-size: 0.875rem;
+  color: #555;
+  line-height: 2;
+  vertical-align: baseline;
+}
+
+sub a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+sub a:hover { text-decoration: underline; }
+
+/* ── Dividers ── */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 1.5rem 0;
+}
+
+/* ── Links ── */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+/* ── Paragraphs ── */
+p { margin: 0.5rem 0; }
+
+/* ── Lists ── */
+ul {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+}
+
+li { margin-bottom: 0.3rem; }
+
+/* ── Tech stack blockquotes ── */
+blockquote {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  border-left: none;
+  background: none;
+}
+
+blockquote p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0;
+}
+
+blockquote code {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  font-family: inherit;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ── Inline code (dates in backticks) ── */
+p > code,
+h3 ~ p code {
+  background: #f3f4f6;
+  color: #374151;
+  border-radius: 4px;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.8rem;
+  font-family: inherit;
+}
+
+/* ── Skills section bold labels ── */
+strong { font-weight: 600; color: #111827; }
+
+/* ── Languages table ── */
+table {
+  border-collapse: collapse;
+  width: auto;
+  margin: 0.5rem 0;
+}
+
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 0.4rem 0.85rem;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+/* ── Shields.io badges ── */
+img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.15rem 0.1rem;
+}
+
+/* ── Print ── */
+@media print {
+  .cv-container {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  h2 {
+    color: #000;
+    border-bottom-color: #000;
+  }
+
+  blockquote code {
+    background: #f0f0f0;
+    color: #000;
+    border-color: #ccc;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .cv-container { padding: 1.5rem 1rem; }
+  h1 { font-size: 1.75rem; }
+}
