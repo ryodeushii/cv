@@ -198,13 +198,18 @@ img {
 
   .cv-title { font-size: 0.8rem; }
 
-  .cv-contact { font-size: 0.72rem; }
+  .cv-contact { font-size: 0.62rem; }
 
   /* Links — plain text in print */
   a { color: inherit; text-decoration: none; }
 
-  /* Hide decorative hr separators — h2/h3 margins provide enough spacing */
-  hr { display: none; }
+  /* Suppress hr completely — use h2/h3 margins for spacing */
+  hr {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
 
   /* Section headings */
   h2 {
