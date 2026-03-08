@@ -179,8 +179,8 @@ img {
   }
 
   body {
-    font-size: 11.5px;
-    line-height: 1.5;
+    font-size: 10.5px;
+    line-height: 1.4;
     color: #1a1a2e;
     background: #fff;
   }
@@ -217,19 +217,13 @@ img {
     color: #2563eb;
     border-bottom-color: #2563eb;
     border-bottom-width: 1.5px;
-    margin: 1.1rem 0 0.5rem;
+    margin: 0.9rem 0 0.4rem;
     page-break-after: avoid;
   }
 
-  /* Force Experience (and any h2.page-start) onto a new page */
-  h2.page-start {
-    page-break-before: always;
-    margin-top: 0;
-  }
-
   h3 {
-    font-size: 0.95rem;
-    margin: 0.75rem 0 0.15rem;
+    font-size: 0.92rem;
+    margin: 0.6rem 0 0.1rem;
     page-break-after: avoid;
   }
 
@@ -240,13 +234,13 @@ img {
   }
 
   li {
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.15rem;
     page-break-inside: avoid;
   }
 
   /* Tech stack pills */
   blockquote {
-    margin: 0.35rem 0 0.5rem;
+    margin: 0.25rem 0 0.4rem;
     page-break-inside: avoid;
     page-break-before: avoid;
   }
@@ -271,9 +265,9 @@ img {
 
   /* Skills badges */
   img {
-    height: 17px;
+    height: 15px;
     width: auto;
-    margin: 0.07rem 0.06rem;
+    margin: 0.05rem 0.05rem;
   }
 
   /* Table */
