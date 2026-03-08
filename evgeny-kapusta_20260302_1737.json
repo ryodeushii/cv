@@ -1,0 +1,492 @@
+{
+  "picture": {
+    "hidden": false,
+    "url": "https://storage.rxresu.me/clp9fv0w22z449huna2uamv1l/pictures/clp9fv0w22z449huna2uamv1l.jpg",
+    "size": 100,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 100,
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Evgeny Kapusta",
+    "headline": "Senior Software Engineer",
+    "email": "3193631@gmail.com",
+    "phone": "+48571945110",
+    "location": "Warsaw, Poland",
+    "website": {
+      "url": "",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "Summary",
+    "columns": 1,
+    "hidden": false,
+    "content": "<p>Senior Software Engineer with 10+ years of experience designing and delivering scalable backend systems, IoT platforms, and distributed microservices. Expert in Node.js, TypeScript, and Golang with deep proficiency in GraphQL, gRPC, and event-driven architectures. Proven track record of building high-availability systems serving millions of devices and users daily. Strong DevOps background including Kubernetes, Docker, CI/CD pipelines (GitHub Actions, Jenkins, Terraform), and cloud platforms (GCP, AWS).</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "Profiles",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "sp9zbkflps863c48bgt7osx1",
+          "hidden": false,
+          "icon": "github",
+          "network": "Github",
+          "username": "ryodeushii",
+          "website": {
+            "url": "https://github.com/ryodeushii",
+            "label": ""
+          }
+        },
+        {
+          "id": "ozyf7vbcvy6vrhobtoyxiyhq",
+          "hidden": false,
+          "icon": "linkedin",
+          "network": "Linkedin",
+          "username": "eugenekapusta",
+          "website": {
+            "url": "https://www.linkedin.com/in/eugenekapusta/",
+            "label": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "tqktg29iom93d92ii64xkvi3",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Viessmann",
+          "position": "Senior Software Engineer",
+          "location": "Warsaw",
+          "period": "2023-01-15",
+          "website": {
+            "url": "https://www.viessmann.family",
+            "label": ""
+          },
+          "description": "<ul><li>Architected and maintained IoT traffic handling infrastructure processing millions of connected HVAC device events daily across global markets</li><li>Designed device connectivity, access-control, and traffic-forwarding pipelines enabling end-users to monitor and control devices in real time via mobile application</li><li>Built high-throughput MQTT message routing using EMQX broker and an in-house MQTTSn broker for constrained IoT devices</li><li>Managed microservices deployment and orchestration on Kubernetes within a Jenkins-based CI/CD environment</li><li>Delivered initial device provisioning and onboarding workflows, reducing manual setup overhead for large-scale device fleets</li></ul><p><strong>Stack:</strong> Node.js, TypeScript, RabbitMQ, MongoDB, PostgreSQL, Redis, EMQX, MQTTSn, Kubernetes, Docker, Jenkins</p>"
+        },
+        {
+          "id": "mk1iangf2b0yeeuodph03xb5",
+          "hidden": false,
+          "company": "Bazar Development",
+          "position": "Senior Software Engineer",
+          "location": "",
+          "period": "2021-08-31 - 2023-01-10 ",
+          "website": {
+            "url": "https://bazar.store",
+            "label": ""
+          },
+          "description": "<ul><li>Developed and maintained backend services for a rapid grocery delivery platform operating with a 15–25 minute delivery SLA</li><li>Built real-time order status tracking using WebSockets, improving customer transparency during fulfillment</li><li>Implemented inventory and catalog search APIs with Elasticsearch, enabling fast full-text and faceted product discovery</li><li>Automated deployment and release workflows with GitHub Actions, reducing manual release steps and improving deployment reliability</li><li>Integrated Golang microservices (Echo) for performance-critical order-processing paths alongside the Node.js services</li></ul><p><strong>Stack:</strong> Node.js, Express.js, Golang, Echo, TypeScript, JavaScript, MariaDB, Redis, Elasticsearch, WebSockets, GitHub Actions</p>"
+        },
+        {
+          "id": "e54of7sk7x50gdnwrdbd0ra1",
+          "hidden": false,
+          "company": "Swedish Marketplace",
+          "position": "Senior Software Engineer",
+          "location": "",
+          "period": "2021-03-14  - 2021-08-30 ",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li>Contributed to backend services for Sweden's largest beauty and health booking platform serving 4M+ monthly consumers and 20,000+ connected specialists</li><li>Developed geolocation-based search features using Elasticsearch, improving specialist discovery accuracy across the country</li><li>Implemented asynchronous job processing with Amazon SQS to handle high-volume booking workflows without blocking the request lifecycle</li><li>Managed containerized services on Amazon ECS/ECR with CircleCI automated deployment pipelines</li></ul><p><strong>Stack:</strong> Node.js, Express.js, MySQL, Redis, Amazon SQS, Elasticsearch, Amazon ECS, Amazon ECR, CircleCI, Lerna, Jira</p>"
+        },
+        {
+          "id": "w0q8ae3vtitg1qjgqbmzw2bn",
+          "hidden": false,
+          "company": "Coinmatics",
+          "position": "Senior Software Engineer",
+          "location": "",
+          "period": "2020-04-09  - 2021-02-28 ",
+          "website": {
+            "url": "https://coinmatics.com/",
+            "label": ""
+          },
+          "description": "<ul><li>Built backend services for a crypto copy-trading platform enabling investors to automatically mirror trades from experienced traders</li><li>Designed and implemented a trading strategy execution engine in Golang for low-latency, high-frequency financial operations</li><li>Integrated with multiple cryptocurrency exchange APIs to support real-time trade execution and portfolio synchronization</li><li>Managed microservices infrastructure with Docker Swarm and applied GitOps practices for reproducible, auditable deployments</li></ul><p><strong>Stack:</strong> Golang, Gin, Echo, Node.js, TypeScript, JavaScript, Express.js, NestJS, MongoDB, PostgreSQL, RabbitMQ, Redis, Docker Swarm, React, Next.js, GitLab, GitHub</p>"
+        },
+        {
+          "id": "xtg252alxrmn1rtx35isjk4h",
+          "hidden": false,
+          "company": "Total Keto Diet",
+          "position": "Senior Software Engineer",
+          "location": "",
+          "period": "2019-11-30  - 2020-03-14 ",
+          "website": {
+            "url": "https://www.totalketodiet.com/",
+            "label": ""
+          },
+          "description": "<ul><li>Engineered a high-performance meal-plan generation service in Golang capable of producing 7–40 day personalized plans from a large recipe database based on user caloric goals</li><li>Extracted meal-plan computation into an independent microservice, significantly reducing latency for the main application under high load</li><li>Built mobile backend APIs supporting barcode scanning, food tracking, weight logging, and personalized goal management</li><li>Integrated Google and Facebook OAuth for secure user authentication across web and mobile clients</li></ul><p><strong>Stack:</strong> Golang, Gin, Node.js, Express.js, MongoDB, React.js, React Native, Redux, Saga, Firebase, Git, GitLab</p>"
+        },
+        {
+          "id": "saojk460mex1kcmagucatqjn",
+          "hidden": false,
+          "company": "Financial analytics system",
+          "position": "Senior Software Engineer",
+          "location": "",
+          "period": "2018-02-28  - 2019-11-29 ",
+          "website": {
+            "url": "https://equeum.com",
+            "label": ""
+          },
+          "description": "<ul><li>Developed backend services for a global financial and quantitative analytics platform with real-time data ingestion and visualization</li><li>Built gRPC-based Golang microservices for high-performance, strongly typed inter-service communication</li><li>Managed cloud infrastructure on GCP/GKE with Kubernetes, enabling scalable and resilient deployment of data pipeline components</li><li>Implemented event-driven data processing architecture using RabbitMQ, decoupling producers from consumers for improved system resilience</li><li>Integrated Auth0 for enterprise-grade identity and access management across platform services</li></ul><p><strong>Stack:</strong> Node.js, TypeScript, Golang, Echo, gRPC, Viper, Express.js, PostgreSQL, RabbitMQ, Kubernetes, GCP, GKE, CircleCI, React, Auth0, Jira</p>"
+        },
+        {
+          "id": "ou0wd9usa9jikw5qnf4xtuim",
+          "hidden": false,
+          "company": "Online Bus Station",
+          "position": "Software Engineer",
+          "location": "",
+          "period": "2015-05-31 - 2017-12-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li>Built a full-stack intercity bus ticketing system including a REST backend, a passenger web app, a driver mobile app, and a dispatcher admin panel</li><li>Developed real-time seat reservation and booking management using Socket.io, ensuring no double-booking under concurrent load</li><li>Created cross-platform mobile applications for drivers (NativeScript/Angular) and passengers (Xamarin.Android/C#)</li><li>Implemented role-based access control across four distinct user types: passenger, driver, dispatcher, and administrator</li></ul><p><strong>Stack:</strong> Golang, Gin, Node.js, Sails.js, MongoDB, Redis, TypeScript, JavaScript (ES6), Angular (v2-v5), NativeScript, Angular Material, Socket.io, C#, Xamarin.Android, Bash, GitLab</p>"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "zvyq9wm9wsua4yzjmgaflrlv",
+          "hidden": false,
+          "school": "Belarusian National Technical University",
+          "degree": "Master of Science",
+          "area": "",
+          "grade": "",
+          "location": "",
+          "period": " - ",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "skills": {
+      "title": "Skills",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "o0w6j5zry8g1ln4wg7k8j6jx",
+          "hidden": false,
+          "icon": "",
+          "name": "Node.js",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "Express",
+            "Fastify",
+            "Nest",
+            "Javascript",
+            "Typescript",
+            "React",
+            "Angular 2+",
+            "Vue",
+            "Moment.js",
+            "date-fns",
+            "elasticsearch",
+            "redis"
+          ]
+        },
+        {
+          "id": "c50fjwknp4m4t243l2otdpno",
+          "hidden": false,
+          "icon": "",
+          "name": "Golang",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "Gin",
+            "Echo",
+            "RMQ",
+            "Echo",
+            "Fiber",
+            "Viper",
+            "PQ",
+            "Cryptocurrency Exchanges",
+            "Twilio"
+          ]
+        },
+        {
+          "id": "ca1ahebm857zu0pz8ns3o2yf",
+          "hidden": false,
+          "icon": "",
+          "name": "Databases",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "MySQL",
+            "Redis",
+            "Postgres",
+            "MongoDB"
+          ]
+        },
+        {
+          "id": "umo0mvzgu1nibgkusu1o9zhz",
+          "hidden": false,
+          "icon": "",
+          "name": "Operation Systems",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "Linux",
+            "macOS"
+          ]
+        },
+        {
+          "id": "devops1skills000000000001",
+          "hidden": false,
+          "icon": "",
+          "name": "DevOps & Cloud",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "Docker",
+            "Kubernetes",
+            "Docker Swarm",
+            "Terraform",
+            "GCP",
+            "GKE",
+            "Amazon ECS",
+            "Amazon ECR"
+          ]
+        },
+        {
+          "id": "cicd1skills0000000000001",
+          "hidden": false,
+          "icon": "",
+          "name": "CI/CD & Tools",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "GitHub Actions",
+            "Jenkins",
+            "CircleCI",
+            "GitLab CI",
+            "GitOps",
+            "Git",
+            "Jira",
+            "Atlassian Stack"
+          ]
+        },
+        {
+          "id": "protocols1skills000000001",
+          "hidden": false,
+          "icon": "",
+          "name": "Protocols & APIs",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "REST",
+            "GraphQL",
+            "gRPC",
+            "WebSockets",
+            "MQTT",
+            "RabbitMQ",
+            "EMQX",
+            "Amazon SQS"
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "iyicdsvpl9o2k91t2wt7q2ib",
+          "hidden": false,
+          "language": "Russian",
+          "fluency": "Native",
+          "level": 5
+        },
+        {
+          "id": "hoyqw1f1aakxd5dhntplu8rl",
+          "hidden": false,
+          "language": "English",
+          "fluency": "C1",
+          "level": 4
+        },
+        {
+          "id": "jsz9jb4graxyn5h20onynwke",
+          "hidden": false,
+          "language": "Belarusian",
+          "fluency": "Native",
+          "level": 3
+        }
+      ]
+    },
+    "interests": {
+      "title": "Interests",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "ylr2ca9hcmgvc56dlscwzt5o",
+          "hidden": false,
+          "icon": "",
+          "name": "Coding",
+          "keywords": []
+        },
+        {
+          "id": "up8emzj6n7ldsob0d27rwhne",
+          "hidden": false,
+          "icon": "",
+          "name": "3D printing",
+          "keywords": []
+        },
+        {
+          "id": "sebfw4dmpq0ozltdafdgc5p7",
+          "hidden": false,
+          "icon": "",
+          "name": "Computer-related hardware",
+          "keywords": []
+        },
+        {
+          "id": "jgepz896eqeank4ixn998c8u",
+          "hidden": false,
+          "icon": "",
+          "name": "Volleyball",
+          "keywords": []
+        },
+        {
+          "id": "sd70nqnflaiytdow8p750nxv",
+          "hidden": false,
+          "icon": "",
+          "name": "Photography",
+          "keywords": []
+        }
+      ]
+    },
+    "awards": {
+      "title": "Awards",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "Certifications",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "publications": {
+      "title": "Publications",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "volunteer": {
+      "title": "Volunteering",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "references": {
+      "title": "References",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    }
+  },
+  "customSections": [],
+  "metadata": {
+    "template": "kakuna",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "summary",
+            "profiles",
+            "experience",
+            "education",
+            "projects",
+            "volunteer",
+            "references"
+          ],
+          "sidebar": [
+            "skills",
+            "interests",
+            "certifications",
+            "awards",
+            "publications",
+            "languages"
+          ]
+        }
+      ]
+    },
+    "css": {
+      "enabled": false,
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}"
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 18,
+      "marginY": 18,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(37, 99, 235, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "Source Code Pro",
+        "fontWeights": [
+          "400"
+        ],
+        "fontSize": 12,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "Source Code Pro",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 15,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": ""
+  }
+}
