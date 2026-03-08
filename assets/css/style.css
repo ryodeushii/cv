@@ -167,23 +167,107 @@ img {
 
 /* ── Print ── */
 @media print {
+  @page {
+    size: A4;
+    margin: 14mm 13mm;
+  }
+
+  /* Preserve colors (badges, section headings, pills) */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #fff;
+  }
+
   .cv-container {
     max-width: 100%;
-    padding: 0.5rem;
+    padding: 0;
+    margin: 0;
   }
 
+  /* Header */
+  .cv-header { margin-bottom: 0.8rem; }
+
+  .cv-header h1 { font-size: 1.6rem; }
+
+  .cv-title { font-size: 0.85rem; }
+
+  .cv-contact { font-size: 0.75rem; }
+
+  /* Links — plain text in print */
   a { color: inherit; text-decoration: none; }
 
+  /* Section headings */
   h2 {
-    color: #000;
-    border-bottom-color: #000;
+    font-size: 0.65rem;
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+    margin: 1rem 0 0.5rem;
+    page-break-after: avoid;
   }
 
-  blockquote code {
-    background: #f0f0f0;
-    color: #000;
-    border-color: #ccc;
+  h3 {
+    font-size: 0.875rem;
+    page-break-after: avoid;
   }
+
+  /* Dividers */
+  hr { margin: 0.7rem 0; }
+
+  /* Lists */
+  ul {
+    margin: 0.25rem 0;
+    padding-left: 1rem;
+    page-break-inside: avoid;
+  }
+
+  li { margin-bottom: 0.15rem; }
+
+  /* Tech stack pills */
+  blockquote {
+    margin: 0.4rem 0 0;
+    page-break-inside: avoid;
+    page-break-before: avoid;
+  }
+
+  blockquote p { gap: 0.25rem; }
+
+  blockquote code {
+    background: #eff6ff;
+    color: #1d4ed8;
+    border-color: #bfdbfe;
+    font-size: 0.65rem;
+    padding: 0.08rem 0.35rem;
+  }
+
+  /* Date / location inline code */
+  p > code {
+    background: #f3f4f6;
+    color: #374151;
+    font-size: 0.7rem;
+    padding: 0.05rem 0.35rem;
+  }
+
+  /* Skills badges — keep compact */
+  img {
+    height: 16px;
+    margin: 0.1rem 0.05rem;
+  }
+
+  /* Table */
+  th, td {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  /* Reduce gap between p tags */
+  p { margin: 0.3rem 0; }
 }
 
 /* ── Mobile ── */
